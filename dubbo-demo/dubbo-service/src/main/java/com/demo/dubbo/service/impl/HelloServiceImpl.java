@@ -1,14 +1,13 @@
-package com.demo.dubbo.service;
+package com.demo.dubbo.service.impl;
 
+import com.demo.dubbo.service.HelloService;
 import org.apache.dubbo.config.annotation.Service;
-import org.springframework.stereotype.Component;
 
 /**
  * @author zhangmingshuang
  * @since 2020/1/10
  */
-@Service(version = "1.0.0")
-@Component
+@Service
 public class HelloServiceImpl implements HelloService {
 
     @Override

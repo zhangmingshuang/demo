@@ -12,4 +12,14 @@
     <artifactId>dubbo-app</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>com.demo.dubbo</groupId>
+            <artifactId>dubbo-api</artifactId>
+            <version>0.0.0.1</version>
+        </dependency>
+
+
+    </dependencies>
+
 </project>
